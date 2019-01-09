@@ -1,0 +1,10 @@
+http://www.futbolaragon.com/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codjornada=10&codcompeticion=2771846&codgrupo=2771849
+
+
+Descarga de clasificacion
+
+
+var Nova_Pdf_Url;function Update_Nova_Pdf(TVC){Nova_Pdf_Url="/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codcompeticion=2771846&codgrupo=2771849&codjornada=9&orden_pdf=&TVC="+TVC+"&NPcd_Pdf=1"}Update_Nova_Pdf(0);
+
+
+http://www.futbolaragon.com/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codcompeticion=2771846&codgrupo=2771849&orden_pdf=&TVC="+TVC+"&NPcd_Pdf=1

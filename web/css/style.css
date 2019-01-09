@@ -5,6 +5,9 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 /*-- header --*/
+
+
+
 html,body {
 	font-family: 'Arimo-Regular';
 	background:#FFF;
@@ -19,6 +22,8 @@ html,body {
    src: url(../fonts/PoiretOne-Regular.ttf)format('truetype');
 }
 /*-- header --*/
+
+
 .header-top{
   background: #3D3D3D;
   padding: 1.2em 0;
@@ -397,10 +402,7 @@ h5.typ1{
 .progress-bar-inverse {
   background-color: #757575;
 }
-.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-  background-color:#5bb2fc; !important;
-  border-color:#5bb2fc; !important;
-}
+
 .grid_3 p,.page-header p {
   color: 888;
   font-size: 0.8em;
@@ -829,11 +831,11 @@ ul.social-slide li i.mac{
 	margin-top: 1em;
 }
 .more a{
-  color: #8B8B8B;
+  color: #FFFFFF;
   text-decoration: none;
 }
 .more a:hover{
-	color:#00a78e;
+	color:#ffffff;
 	text-decoration:none;
 	transition: .5s all;
 	-webkit-transition: .5s all;

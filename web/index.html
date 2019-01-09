@@ -3,41 +3,49 @@ Author: Victor
 -->
 <!DOCTYPE html>
 <html>
+
 <head>
-<!-- ICONO PÁGINA WEB -->
-<link rel="shortcut icon" href="images/zona.ico">
-<title> Zona FS Teruel </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<!-- js -->
-<script src="js/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- js -->
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-	$(".scroll").click(function(event){		
-		event.preventDefault();
-	$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-});
-});
-</script>
-<!-- start-smoth-scrolling -->
+	<!-- ICONO PÁGINA WEB -->
+	<link rel="shortcut icon" href="images/zona.ico">
+	<!-- Titulo pagina web -->
+	<title> Zona FS Teruel </title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+	<!-- Estilos BootStrap -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	
+	<!-- js -->
+	<script src="js/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- js -->
+	
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
+	});
+	</script>
+	<!-- start-smoth-scrolling -->
+	
 </head>
+
 	<body>
 		<!-- header -->
 		<div class="header-middle">
 			<!-- container 1, fondo blanco -->
 			<div class="container">
 				<div class="header-middle-logo">
-					<img src="images/zonafs.png" width="85" height="auto" />
-					<a href="index.html"> &nbsp Zona FS  </a>
+					<a href="index.html"> <img src="images/zonafs.png" width="85" height="auto" /> &nbsp Zona FS  </a>
 				</div>
 				<div class="header-middle-right">
 					<div class="phone">
@@ -69,10 +77,8 @@ jQuery(document).ready(function($) {
 					<ul class="nav1">
 						<li><a href="about.html">Equipo</a><li>                        
 						<li><a href="matches.html">Partidos</a><li>                 
-						<li><a href="gallery.html">Imagenes</a><li>               
-						<li><a href="articles.html">Articulos</a><li>                  
-						<li><a href="blog.html">Blog</a><li>                   
-						<li><a href="typo.html">Typo</a><li>             
+						<li><a href="gallery.html">Imagenes</a><li>                     
+						<li><a href="sponsors.html">Colaboradores</a><li>
 						<li><a href="contact.html">Contacto</a></li>
 						<div class="clearfix"> </div>
 					</ul>
@@ -127,6 +133,13 @@ jQuery(document).ready(function($) {
 							href="https://www.siguetuliga.com/liga/aragon-tercera-division-autonomica/clasificacion?utm_source=widget2&utm_medium=webs%2Bo%2Bblogs&utm_campaign=Widgets%2Bresultados">
 							Clasificacion Autonómica Futbol sala</a></div><script type="text/javascript">widthIcon = "14";heightIcon = "14";</script>
 							<script language="javascript" src="https://www.siguetuliga.com/widget/clasificacion2.php?id=3970" charset="iso-8859-1"></script>
+							<p>
+							Si pinchas en el siguiente botón puedes descargar la clasificacion:
+							</p>
+							
+								<a href="http://www.futbolaragon.com/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codcompeticion=2771846&codgrupo=2771849&orden_pdf=&TVC=0&NPcd_Pdf=1"> 
+									<img src="images/pdf.jpg"> Desgarga Clasificacion
+								</a>
 							<br></br>
 						<h3> Ultimos resultados</h3>
 						<div class="tournament">
@@ -144,7 +157,7 @@ jQuery(document).ready(function($) {
 						</div>
 						<br> </br>
 						<h3> Máximos goleadores </h3>
-						
+							
 					</div>
 					
 					<div class="col-md-3 how-right">
