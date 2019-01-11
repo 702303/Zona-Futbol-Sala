@@ -24,6 +24,10 @@ html,body {
 /*-- header --*/
 
 
+.img-responsive:hover {
+	transform: scale(1.08);
+}
+
 .header-top{
   background: #3D3D3D;
   padding: 1.2em 0;
