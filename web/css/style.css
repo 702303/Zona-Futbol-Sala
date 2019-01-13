@@ -28,6 +28,17 @@ html,body {
 	transform: scale(1.08);
 }
 
+
+.img-responsive2,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .header-top{
   background: #3D3D3D;
   padding: 1.2em 0;
@@ -794,7 +805,13 @@ ul.social-slide li i.mac{
   font-size: 16px;
   color: #868686;
   line-height: 1.8em;
-}	
+}
+.how-right h4{
+  margin: 1em 0;
+  font-size: 16px;
+  color: #868686;
+  line-height: 1.8em;
+}		
 .how-left p{
   color: #B3B3B3;
   font-size: 14px;
@@ -815,10 +832,10 @@ ul.social-slide li i.mac{
 	width: 100%;
 }
 .how-right-right h4{
-  font-size: 20px;
-  margin: 0;
-  color: #8B8B8B;
-  text-transform: uppercase;
+  margin: 1em 0;
+  font-size: 16px;
+  color: #868686;
+  line-height: 1.8em;
 }
 .how-right-right {
 	float: left;
