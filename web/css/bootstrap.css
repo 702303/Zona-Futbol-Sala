@@ -70,6 +70,8 @@ mark {
 }
 small {
   font-size: 80%;
+    font-weight: bold;
+
 }
 sub,
 sup {
