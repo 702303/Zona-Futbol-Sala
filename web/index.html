@@ -7,6 +7,7 @@ Author: Victor
 <head>
 	<!-- ICONO PÁGINA WEB -->
 	<link rel="shortcut icon" href="images/zona.ico">
+	
 	<!-- Titulo pagina web -->
 	<title> Zona FS Teruel </title> 
 	
@@ -24,7 +25,7 @@ Author: Victor
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- js -->
 	
-	<!-- start-smoth-scrolling -->
+	<!-- Scroll página -->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<script type="text/javascript">
@@ -35,7 +36,7 @@ Author: Victor
 	});
 	});
 	</script>
-	<!-- start-smoth-scrolling -->
+	<!-- Scroll página -->
 	
 </head>
 
@@ -43,14 +44,15 @@ Author: Victor
 		<!-- header -->
 		<div class="header-middle">
 			<!-- container 1, fondo blanco -->
-
 			<div class="container">
+				<!-- Logo página web -->
 				<div class="header-middle-logo">
 					<a href="index.html"> 
 						<img src="images/zonabig.jpg" width="84" height="auto" /> 
 						&nbsp Zona FS
 					</a>
 				</div>
+				<!-- Información en la cabecera-->
 				<div class="header-middle-right">
 					<div class="phone">
 						<span> </span>
@@ -88,14 +90,14 @@ Author: Victor
 						<div class="clearfix"> </div>
 					</ul>
 					<!-- script-for-menu -->
-							 <script> 
-							   $( "span.menu" ).click(function() {
-								 $( "ul.nav1" ).slideToggle( 300, function() {
-								 // Animation complete.
-								  });
-								 });
-							
-							</script>
+						 <script> 
+						   $( "span.menu" ).click(function() {
+							 $( "ul.nav1" ).slideToggle( 300, function() {
+							 // Animation complete.
+							  });
+							 });
+						
+						</script>
 						<!-- /script-for-menu -->
 				</div>
 				<!-- //container -->
@@ -109,8 +111,8 @@ Author: Victor
 		<div class ="container text-center">
 			<br> <hr>
 			<img class="img-responsive2" src="images/fotoequipo.jpg" width="1100" height="550">
+			<hr>
 		</div>
-		<hr>
 		
 		<!-- //banner -->
 		<!-- how -->
@@ -222,22 +224,16 @@ Author: Victor
 			<!-- //container -->
 		</div>
 		<!-- //footer -->
+		
 		<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			$(document).ready(function() {
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+			// JavaScript para el boton con la flecha de subir hacia arriba
+		</script>
+		
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<!-- content-Get-in-touch -->
 	</body>
 </html>
